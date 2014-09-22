@@ -61,7 +61,6 @@ img {
 
 @media only screen and (min-width: 36em) {
     article { 
-=======
     /* Larger Screens */
     article {
         width: calc(100% - 200px);
@@ -88,10 +87,7 @@ img {
     }
 
 }
-<<<<<<< Local Changes
-=======
->>>>>>> External Changes
-=======
+
 
 @media only print {
     /**
