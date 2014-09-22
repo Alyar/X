@@ -60,18 +60,15 @@ img {
 }
 
 @media only screen and (min-width: 36em) {
-<<<<<<< Local Changes
     article { 
 =======
     /* Larger Screens */
     article {
->>>>>>> External Changes
         width: calc(100% - 200px);
         float: right;
         margin-right: 0;
 		font-size: 300px;
 		line-height: 320px;
-		font-color: red;
 		font-family: sans-serif, arial, helvetica, times;
 		
 		
