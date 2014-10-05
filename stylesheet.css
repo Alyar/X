@@ -1,5 +1,5 @@
 #wrapper {
-	padding: 94px 188px;
+padding: 94px 710px 0 188px;
 }
 
 p {
@@ -8,6 +8,35 @@ p {
 	font-size: 12pt;
 	text-indent: 36px;
 }
+
+span.dropt {
+	border-bottom: thin dotted; 
+	font-size: 9pt;
+
+}
+
+span.dropt:hover {
+	text-decoration:none; 
+	z-index: 20; }
+
+
+span.dropt:hover span {
+	left: 2%; 
+	background: #ffffff;} 
+
+span.dropt span {
+	position: absolute; left: -9999px;
+ 	margin: 4px 0 0 0px; 
+  	padding: 3px 3px 3px 3px; 
+  	border-style:solid; 
+  	border-color:black; 
+  	border-width:5px;}
+
+span.dropt:hover span {
+	color: black;
+	margin: 0px 0 0 726px; 
+	background: white; 
+	z-index:20;} 
 
 
 li { 
