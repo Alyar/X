@@ -1,5 +1,5 @@
 #wrapper {
-padding: 94px 710px 0 188px;
+padding: 94px 188px 0 188px;
 }
 
 p {
@@ -12,31 +12,34 @@ p {
 span.dropt {
 	border-bottom: thin dotted; 
 	font-size: 9pt;
-
 }
 
 span.dropt:hover {
 	text-decoration:none; 
-	z-index: 20; }
+	z-index: 20; 
+}
 
 
 span.dropt:hover span {
 	left: 2%; 
-	background: #ffffff;} 
+	background: #ffffff;
+} 
 
 span.dropt span {
 	position: absolute; left: -9999px;
- 	margin: 0px 0 0 0px; 
+ 	margin: 4px 0 0 0px; 
   	padding: 3px 3px 3px 3px; 
   	border-style:solid; 
   	border-color:black; 
-  	border-width:5px;}
+  	border-width:5px;
+  }
 
 span.dropt:hover span {
 	color: black;
 	margin: 0px 0 0 726px; 
 	background: white; 
-	z-index:20;} 
+	z-index:20;
+} 
 
 
 li { 
@@ -58,13 +61,11 @@ h2 {
 	font-family: helvetica;
 	font-weight: bold;
 	font-size: 14pt;
-
 }
 
 a {
 	color: black;
 	text-decoration: none;
-
 }
 
 a:hover {
@@ -72,19 +73,26 @@ a:hover {
 	text-decoration: underline;
 	font-size: 24pt;
 	text-shadow: 0 0 3px rgb(255,0,0);
-	
 }
 
 a:visited {
-	
 	text-decoration: none;
 }
 
-a:active {
-	
+a:active {	
 	text-decoration: none;
 }
 
+@media only screen and (max-width: 54em) {
+    
+    
+    #wrapper{
+    	padding: 94px 32px 0 32px;}
+    
+    h1 {padding-left: 20pt;
 
-}    
+    }
+}
+
+   
 
