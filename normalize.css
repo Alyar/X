@@ -20,17 +20,6 @@ body {
   margin: 0;
 }
 
-div {
-    -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
-}
-
-div {
-    -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 10px; /* Firefox */
-    column-gap: 10px;
-}
 
 /* HTML5 display definitions
    ========================================================================== */

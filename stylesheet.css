@@ -1,5 +1,4 @@
 #wrapper {
-
 padding: 50px 20px 20px 20px;
 }
 
@@ -7,18 +6,13 @@ a {
 	width: auto;
 	height: auto;
 
-
-
-
 }
 
 p {
 	font-family: Helvetica;
 	font-weight: normal;
-
 	letter-spacing: 0.5px;
 	line-height:18px;
-
 	font-size: 12pt;
 	text-indent: 36px;
 }
@@ -31,14 +25,11 @@ span.dropt {
 
 span.dropt:hover {
 	text-decoration:none; 
-
 	z-index: 20; }
-
 
 
 span.dropt:hover span {
 	left: 2%; 
-
 	background: #ffffff;} 
 
 span.dropt span {
@@ -49,26 +40,11 @@ span.dropt span {
   	border-color:black; 
   	border-width:5px;}
 
-} 
-
-span.dropt span {
-	position: absolute; left: -9999px;
- 	margin: 4px 0 0 0px; 
-  	padding: 3px 3px 3px 3px; 
-  	border-style:solid; 
-  	border-color:black; 
-  	border-width:5px;
-  }
-
 span.dropt:hover span {
 	color: black;
 	margin: 0px 0 0 726px; 
 	background: white; 
-
 	z-index:20;} 
-
-} 
-
 
 
 li { 
@@ -83,7 +59,7 @@ h1 {
 	font-family: helvetica;
 	font-weight: bold;
 	font-size: 20pt;
-	padding-left: 188px;
+	padding-left: 30%;
 }
 
 h2 { 
@@ -104,7 +80,6 @@ a:hover {
 	text-decoration: underline;
 	font-size: 24pt;
 	text-shadow: 0 0 3px rgb(255,0,0);
-
 	
 }
 
@@ -116,29 +91,37 @@ a:visited {
 a:active {
 	
 	text-decoration: none;
+} 
+
+div {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 10px; /* Firefox */
+    column-gap: 10px;
+}
+
+@media only screen and (max-width:900px) {
+div {	
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+	}
+}
+
+
+@media only screen and (max-width:480px) {
+div {	
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+	}
 }
 
 
 
 
-a:visited {
-	text-decoration: none;
-}
 
-a:active {	
-	text-decoration: none;
-}
 
-@media only screen and (max-width: 52em) {
-    
-    
-    #wrapper{
-    	padding: 94px 32px 0 32px;}
-    
-    h1 {padding-left: 20pt;
-
-    }
-}
-
-   
 
