@@ -1,5 +1,5 @@
 #wrapper {
-<<<<<<< HEAD
+
 padding: 50px 20px 20px 20px;
 }
 
@@ -7,19 +7,18 @@ a {
 	width: auto;
 	height: auto;
 
-=======
-padding: 94px 188px 0 188px;
->>>>>>> FETCH_HEAD
+
+
+
 }
 
 p {
 	font-family: Helvetica;
 	font-weight: normal;
-<<<<<<< HEAD
+
 	letter-spacing: 0.5px;
 	line-height:18px;
-=======
->>>>>>> FETCH_HEAD
+
 	font-size: 12pt;
 	text-indent: 36px;
 }
@@ -27,25 +26,19 @@ p {
 span.dropt {
 	border-bottom: thin dotted; 
 	font-size: 9pt;
-<<<<<<< HEAD
 
-=======
->>>>>>> FETCH_HEAD
 }
 
 span.dropt:hover {
 	text-decoration:none; 
-<<<<<<< HEAD
+
 	z-index: 20; }
-=======
-	z-index: 20; 
-}
->>>>>>> FETCH_HEAD
+
 
 
 span.dropt:hover span {
 	left: 2%; 
-<<<<<<< HEAD
+
 	background: #ffffff;} 
 
 span.dropt span {
@@ -55,8 +48,7 @@ span.dropt span {
   	border-style:solid; 
   	border-color:black; 
   	border-width:5px;}
-=======
-	background: #ffffff;
+
 } 
 
 span.dropt span {
@@ -67,18 +59,16 @@ span.dropt span {
   	border-color:black; 
   	border-width:5px;
   }
->>>>>>> FETCH_HEAD
 
 span.dropt:hover span {
 	color: black;
 	margin: 0px 0 0 726px; 
 	background: white; 
-<<<<<<< HEAD
+
 	z-index:20;} 
-=======
-	z-index:20;
+
 } 
->>>>>>> FETCH_HEAD
+
 
 
 li { 
@@ -100,19 +90,13 @@ h2 {
 	font-family: helvetica;
 	font-weight: bold;
 	font-size: 14pt;
-<<<<<<< HEAD
 
-=======
->>>>>>> FETCH_HEAD
 }
 
 a {
 	color: black;
 	text-decoration: none;
-<<<<<<< HEAD
 
-=======
->>>>>>> FETCH_HEAD
 }
 
 a:hover {
@@ -120,7 +104,7 @@ a:hover {
 	text-decoration: underline;
 	font-size: 24pt;
 	text-shadow: 0 0 3px rgb(255,0,0);
-<<<<<<< HEAD
+
 	
 }
 
@@ -135,18 +119,7 @@ a:active {
 }
 
 
-}    
 
-@media only screen and (max-width:20px) {
-	
-	#wrapper{
-		padding: 94px 32px 0 32px;
-		
-		h1 {padding-left: 20px;
-	}
-}
-=======
-}
 
 a:visited {
 	text-decoration: none;
@@ -169,4 +142,3 @@ a:active {
 
    
 
->>>>>>> FETCH_HEAD
