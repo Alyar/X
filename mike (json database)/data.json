@@ -1,0 +1,16 @@
+{
+	"footnotes": [
+		{
+			"referentie": "1",
+			"footnote": "Hallo, dit is een voetnoot, mijn referentie staat in de ID"
+		},
+		{
+			"referentie": "2",
+			"footnote": "Ik ben de tweede voetnoot, dit is in principe de basis werking."
+		},
+		{
+			"referentie": "3",
+			"footnote": "#3, Hopelijk kan je er iets mee, anders leg ik het straks uit"
+		}
+	]
+}
