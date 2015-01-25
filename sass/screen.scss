@@ -1,0 +1,299 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "normalize";
+@import "susy";
+@import "grids";
+@import "typography";
+@import "breakpoint";br
+
+
+
+
+.body {
+  -webkit-font-smoothing: antialiased;
+  background: white;
+  color: #302f2d;
+}
+
+.container {
+
+
+}
+
+em {
+  font-style: normal;
+  border-bottom: 1px solid black;
+
+
+
+
+}
+
+.wrap {
+
+  @include container(100%);
+
+  padding-top: 5em;
+  word-break: initial;
+  color: #302f2d;
+  height: auto;
+  margin-left: gutter(20);
+  margin-right: gutter(20);
+
+  @include breakpoint(800px) {
+
+    @include container(100%);
+    margin-left: gutter(20);
+    margin-right: gutter(20);
+  }
+  @include breakpoint(1200px) {
+
+    @include container(70%);
+  }
+
+}
+
+//*****************
+//Header
+//*****************
+
+.header {
+
+  //background: red;
+  width: 100%;
+
+  text-align: center;
+  font-family: "times new roman";
+  line-height: 1em;
+  font-size: 1.5em;
+
+}
+
+.header li {
+  display: inline-block;
+  margin: gutter(20);
+
+  //background: #ffff00;
+
+  &:first-child {
+
+    display: none;
+
+    @include breakpoint(800px) {
+      float: left;
+      display: inline-block;
+
+    }
+
+
+  }
+
+  &:last-child {
+
+    display: none;
+
+    @include breakpoint(800px) {
+      float: right;
+      display: inline-block;
+
+    }
+  }
+}
+
+//*****************
+//Strip
+//*****************
+
+.stripfull{
+  float: left;
+  width: 100%;
+
+  height: 7em;
+
+
+
+}
+
+.strip {
+
+  overflow: hidden;
+  //background: red;
+  @include span(12 of 12);
+
+
+
+
+  @include breakpoint(800px) {
+
+    @include span(4 of 12);
+
+  }
+}
+
+.striplast{
+
+  @include last;
+
+
+}
+
+.strip h2 {
+  height: 6em;
+  padding-left: 3em;
+  padding-bottom: 3em;
+
+}
+
+.strip h3 {
+  padding-bottom: 3em;
+  font-family: "times new roman";
+  font-size: 1.4em;
+
+}
+
+.strip h1 {
+  font-family: "times new roman";
+  font-size: 1.4em;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 0.9em;
+}
+
+.strip p {
+  padding-bottom: 3em;
+
+}
+
+.viek {
+  @include span(4 of 12);
+
+
+
+
+
+
+  text-align: center;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  margin-bottom: 4em;
+
+  @include breakpoint(800px) {
+    margin-bottom: 0;
+
+
+
+  }
+
+
+}
+.viek:last-of-type{
+ // background: red;
+  @include last;
+}
+
+.viek a{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 100%;
+  display: inline-block;
+
+  text-decoration: none;
+  color: #302f2d;
+}
+
+.viek a:hover {
+  background: #e7e7e7;
+  text-decoration: none;
+  color: #302f2d;
+}
+
+.big {
+
+  display: none;
+
+  @include breakpoint(800px) {
+    display: inline-block;
+
+
+
+  }
+}
+
+.small {
+  width: 100%;
+  display: inline-block;
+
+  @include breakpoint(800px) {
+    display: none;
+
+    width: 100%;
+
+  }
+}
+
+
+
+//*****************
+//Galery
+//*********************
+.gallery {
+  backface-visibility: hidden;
+  width: 100%;
+ // background: red;
+
+  @include breakpoint(800px) {
+
+    width: 100%;
+  }
+
+  @include breakpoint(1200px) {
+    margin-left: 5%;
+    width: 90%;
+  }
+
+}
+
+.galleryFix {
+
+    position: fixed;
+   top: 70%;
+
+}
+.galleryFlow {
+
+
+  position: absolute;
+  top:0;
+  left: 0;
+}
+
+#container{
+
+  width: 100%;
+
+  //background: green;
+}
+
+.item {
+
+  float: left;
+  //background: red;
+  width: 23%;
+  padding: 1%;
+  height: auto;
+}
+
+.red {
+  background: red;
+}
+
+.fillvis {
+  width: 100%;
+  height: 500px;
+  //background: greenyellow;
+  clear: both;
+}
+.fillnone {
+  display: none;
+}
+
